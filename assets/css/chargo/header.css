@@ -1,0 +1,15 @@
+/* Header CSS */
+.header {
+  background-color: #f3f3f3;
+  padding-top: 5px;
+}
+
+.header .nav {
+  height: 50px;
+}
+
+.header p {
+  font-size: 13px;
+  margin: 0;
+}
+/* ./Header CSS */

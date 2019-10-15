@@ -1,0 +1,39 @@
+/* Footer CSS */
+.footer {
+    display: flow-root;
+    background-color: #f2f2f2;
+    color: #212121;
+    border-color: #212121;
+  }
+  
+  .footer .nav-link:hover {
+    border-bottom: solid 1px #212121;
+  }
+  
+  .footer .thrv-wrapper p {
+    color: #bbbbbb;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 300px) {
+    .footer .container {
+      padding: 30px 20px;
+      margin-bottom: 50px;
+      max-width: 1080px;
+      text-align: center;
+      min-height: 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .footer .container {
+      padding: 10px;
+    }
+  
+    .footer .thrv-wrapper p {
+      font-size: 11px;
+    }
+  }
+  
+  
+  /* ./Footer CSS */

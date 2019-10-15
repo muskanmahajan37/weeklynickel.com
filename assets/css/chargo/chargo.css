@@ -1,0 +1,177 @@
+/* Main CSS */
+main {
+  color: #212121;
+}
+@media (min-width: 300px) {
+  .main-container {
+    max-width: 900px;
+    float: none;
+    margin: 10px auto 0px !important;
+    padding: 0px 10px 20px !important;
+  }
+
+  h1 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.4rem;
+    color: rgb(33, 33, 33);
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-em {
+    font-size: 14px;
+    line-height: 1.3rem !important;
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+  }
+
+  .blog-img-link {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .blog-img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .blog-box {
+    border: solid 1px #dceec7;
+    background-color: #efffdc;
+    padding: 10px 5px;
+  }
+
+  .blog-box p {
+    text-align: center;
+    font-size: 22px !important;
+    line-height: 1.4rem !important;
+    color: #212121;
+    margin: 0;
+  }
+
+  .blog-box p.sub-text {
+    text-align: center;
+    font-size: 16px !important;
+    line-height: 1.4rem !important;
+    color: #212121;
+    margin: 0;
+  }
+
+  .tcb-button-link {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    background-color: rgb(13, 181, 48) !important;
+    background-image: none !important;
+    border-radius: 8px;
+    padding: 18px 30px;
+    text-decoration: none !important;
+    color: #fff;
+    text-align: center;
+  }
+
+  .pulse {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .pulse:hover {
+    animation-name: unset;
+  }
+
+  .tcb-button-link .tcb-button-text {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .tcb-button-icon {
+    position: absolute;
+    width: 32px;
+    top: 25px;
+    right: 30px;
+  }
+
+  .tcb-button-icon .tcb-icon {
+    fill: #ffffff;
+  }
+
+  .tve_image {
+    width: 500px;
+    height: 83px;
+  }
+
+  h3 {
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    font-size: 32px !important;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px !important;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .high-light {
+    background-color: rgb(225, 255, 0) !important;
+  }
+
+  .blog-text-box {
+    border: solid 1px #e8ecbc;
+    background-color: #fffedf;
+    padding: 20px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .tve_image {
+    width: 100%;
+  }
+
+  .blog-box p {
+    font-size: 18px !important;
+  }
+
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h3 {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.93);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ./Main CSS */

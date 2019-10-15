@@ -1,0 +1,151 @@
+@media (min-width: 300px) {
+  .main-container {
+    max-width: 650px;
+    float: none;
+    margin: 20px auto 50px !important;
+    padding: 0px 20px !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+    font-family: "Open Sans" !important;
+  }
+
+  h4 {
+    font-size: 22px !important;
+    font-family: "Open Sans" !important;
+  }
+
+  .vdo-container {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .vdo-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    display: block;
+  }
+
+  .vdo-wrapper iframe {
+    width: 100%;
+    height: 360px;
+  }
+
+  .button-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  .tcb-button-link {
+    position: relative;
+    display: block;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    border-bottom: 4px solid rgb(192, 33, 29);
+    border-radius: 4px;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    padding: 10px 20px !important;
+    background-image: none !important;
+    background-color: rgb(233, 44, 44) !important;
+    text-decoration: none !important;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 32px;
+  }
+
+  .tcb-button-link:hover {
+    color: #fff;
+    background-color: rgb(207, 40, 37) !important;
+  }
+
+  .tcb-button-link strong {
+    text-transform: none !important;
+    font-size: 30px !important;
+    font-family: "Open Sans" !important;
+  }
+
+  .arrow-wrapper {
+    position: relative;
+    display: block;
+    top: -35px;
+    width: 100%;
+  }
+
+  .arrow-img {
+    width: 75px;
+    height: auto;
+  }
+
+  .tve_image_wrapper {
+    width: 370px;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .faq_accordion {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .arrow-wrapper {
+    display: none;
+  }
+
+  .button-wrapper {
+    margin-bottom: 50px;
+  }
+}
+
+.wobble {
+  -webkit-animation: wobble 3s ease-in-out 5s infinite both;
+  animation: wobble 3s ease-in-out 5s infinite both;
+}
+
+@keyframes wobble {
+  0%, 100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+      -webkit-transform: translateX(-20px) rotate(-5deg);
+      transform: translateX(-20px) rotate(-5deg);
+  }
+  30% {
+      -webkit-transform: translateX(15px) rotate(5deg);
+      transform: translateX(15px) rotate(5deg);
+  }
+  45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+      transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+      transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+      transform: translateX(-6px) rotate(-1.2deg);
+  }
+}

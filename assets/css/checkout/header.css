@@ -1,0 +1,46 @@
+/* Header CSS */
+.header {
+    background-color: #e0e0e0;
+    padding-top: 5px;
+  }
+  
+  @media (min-width: 300px) {
+    .header-container {
+      max-width: 900px;
+      float: none;
+      margin: 0 auto !important;
+      padding: 10px 0 !important;
+      font-size: 14px;
+    }
+
+    .text-gray {
+        color: #898989;
+    }
+
+    .header-container .tve_image_wrapper {
+      text-align: left;
+    }
+  
+    .header-container .tve_image {
+      width: 150px !important;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .header-container .tve_image_wrapper {
+      text-align: center;
+    }
+
+    .header-container .tve_image {
+      width: 125px !important;
+      height: auto;
+      margin: 10px;
+    }
+
+    .header-container p {
+      font-size: 12px;
+    }
+  }
+  
+  /* ./Header CSS */
